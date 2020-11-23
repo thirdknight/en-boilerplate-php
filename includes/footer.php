@@ -8,9 +8,9 @@
       <div class="footer-menu">
         <a href="./">LOGO</a>
         <ul>
-          <li class="menu__item"><a href="our.html" class="menu__link">Our</a></li>
-          <li class="menu__item"><a href="gallery.html" class="menu__link">Gallery</a></li>
-          <li class="menu__item"><a href="contact.html" class="menu__link">Contact</a></li>
+          <li class="menu__item"><a href="about.php" class="menu__link">About</a></li>
+          <li class="menu__item"><a href="gallery.php" class="menu__link">Gallery</a></li>
+          <li class="menu__item"><a href="contact.php" class="menu__link">Contact</a></li>
         </ul>
       </div>
       <p class = "copyright">

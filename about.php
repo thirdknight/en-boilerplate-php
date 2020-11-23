@@ -1,3 +1,4 @@
+<?php include("includes/a_config.php");?>
 <!DOCTYPE html>
 <html class="no-js" lang="">
 <html lang="en">
@@ -16,46 +17,12 @@
 </head>
 
 <body>
-  <header class="main-header">
-    <div class="container container--flex">
-      <div class="logo-container column column--50">
-        <a href="./" class="logo" >Logo</a>
-      </div>
-    </div>
-  </header>
-  <nav class="main-nav">
-    <div class="container container--flex">
-      <ul class="menu" id="menu">
-        <!-- <li class="menu__item"><a href="/" class="menu__link menu__link--select">Inicio</a></li> -->
-        <li class="menu__item"><a href="about" class="menu__link">About</a></li>
-        <li class="menu__item"><a href="gallery" class="menu__link">Gallery</a></li>
-        <li class="menu__item"><a href="contact" class="menu__link">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
+  <?php include("includes/header.php");?>
+  <?php include("includes/navigation.php");?>
 
-  <br><div>Our</div><br>
+  <br><div>About</div><br>
   
-  <footer>
-    <div class="wrap">
-      <div class="footer-info">
-        <p class="icon-mail">contacto@prometa.com</p>
-        <p class="icon-phone">Telefono: 4954921 - 992523103</p>
-        <p class="icon-location">Pedro Ruiz Gallo 14600, Eten Peru</p>
-      </div>
-      <div class="footer-menu">
-        <a href="./">LOGO</a>
-        <ul>
-          <li class="menu__item"><a href="our.html" class="menu__link">Our</a></li>
-          <li class="menu__item"><a href="gallery.html" class="menu__link">Gallery</a></li>
-          <li class="menu__item"><a href="contact.html" class="menu__link">Contact</a></li>
-        </ul>
-      </div>
-      <p class = "copyright">
-      copyright &copy All rights reserved; <?php print date("Y"); ?>
-      </p>
-    </div>
-  </footer>
+  <?php include("includes/footer.php");?>
 </body>
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
