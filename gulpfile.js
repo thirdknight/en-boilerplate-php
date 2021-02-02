@@ -143,7 +143,7 @@ function browserSync(done) {
 exports.copyImages = copyImages;
 exports.copyFonts = copyFonts;
 exports.sass = buildStyles; // $ gulp sass
-exports.buildScripts = buildScripts; //gulp script
+exports.buildScripts = buildScripts; //gulp buildScripts
 exports.watch = parallel(watchCSS, watchJS, browserSync); // $gulp watch
 
 exports.default = parallel(copyImages, copyFonts, watchCSS, watchJS, browserSync); // $gulp
